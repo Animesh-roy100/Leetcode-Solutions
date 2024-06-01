@@ -8,7 +8,7 @@ public:
         return true;
     } 
     
-    void backtrack(int start, string &s, vector<string> &partition, vector<vector<string>> &res) {
+    void backtrack(int start, string s, vector<string> partition, vector<vector<string>> &res) {
         if (start == s.length()) {
             res.push_back(partition);
             return;
