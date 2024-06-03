@@ -3,28 +3,26 @@ public:
     bool lemonadeChange(vector<int>& bills) {
         if (bills[0]==10 or bills[0]==20) return false;
         unordered_map<int, int> umap;
-        umap[5]++;
+        int five=0, ten=0;
+        five++;
         for(int i=1; i<bills.size(); i++) {
             if(bills[i]==5) {
-                umap[5]++;
+                five++;
             }
             else if (bills[i]==10) {
-                umap[10]++;
-                umap[5]--;
-                if(umap[5]<0) return false;
+                ten++;
+                five--;
+                if(five<0) return false;
             }
             else {
-                umap[20]++;
-                if (umap[10]>0) {
-                    umap[10]--;
-                    umap[5]--;
+                if (ten>0) {
+                    ten--;
+                    five--;
                 }
                 else {
-                    umap[5]--;
-                    umap[5]--;
-                    umap[5]--;
+                    five-=3;
                 }
-                if(umap[5]<0 or umap[10]<0) return false;
+                if(five<0 or ten<0) return false;
             }
         }
         return true;
