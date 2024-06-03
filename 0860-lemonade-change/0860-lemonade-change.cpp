@@ -2,7 +2,6 @@ class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
         if (bills[0]==10 or bills[0]==20) return false;
-        unordered_map<int, int> umap;
         int five=0, ten=0;
         five++;
         for(int i=1; i<bills.size(); i++) {
