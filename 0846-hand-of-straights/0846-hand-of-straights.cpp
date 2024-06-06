@@ -4,13 +4,13 @@ public:
         if (hand.size() % groupSize != 0) return false;
        map<int, int> count;
 
-    for (const int card : hand)
+    for (int card : hand)
       ++count[card];
 
-    for (const auto& [start, _] : count) {
-      const int value = count[start];
+    for (auto& it : count) {
+      int value = count[it.first];
       if (value > 0)
-        for (int i = start; i < start + groupSize; ++i) {
+        for (int i = it.first; i < it.first + groupSize; ++i) {
           count[i] -= value;
           if (count[i] < 0)
             return false;
