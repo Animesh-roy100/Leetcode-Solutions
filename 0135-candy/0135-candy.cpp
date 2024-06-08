@@ -8,19 +8,17 @@ public:
                 left[i] = left[i-1]+1;   
             }
         }
-        
-        vector<int> right(n, 1);
+    
+        int curr=1, sum=left[n-1];
         for (int i=n-2; i>=0; i--) {
             if(ratings[i]>ratings[i+1]) {
-                right[i] = right[i+1]+1;
+                curr++;
+            } else {
+                curr=1;
             }
+            sum += max(left[i], curr);
         }
         
-        int sum=0;
-        for(int i=0; i<n; i++) {
-            int maxRes = max(left[i], right[i]);
-            sum += maxRes;
-        }
         return sum;
     }
 };
