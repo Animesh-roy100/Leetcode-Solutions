@@ -4,34 +4,16 @@ public:
         int n=tokens.size();
         stack<int> stk;
         for(int i=0; i<n; i++) {
-            if(tokens[i] == "+") {
+            if(tokens[i] == "+" or tokens[i] == "-" or tokens[i] == "*" or tokens[i] == "/") {
                 int a = stk.top();
                 stk.pop();
                 int b = stk.top();
                 stk.pop();
-                int sum = a+b;
-                stk.push(sum);
-            } else if (tokens[i] == "-") {
-                int a = stk.top();
-                stk.pop();
-                int b = stk.top();
-                stk.pop();
-                int diff = b-a;
-                stk.push(diff);
-            } else if (tokens[i] == "*") {
-                int a = stk.top();
-                stk.pop();
-                int b = stk.top();
-                stk.pop();
-                int prod = a*b;
-                stk.push(prod);
-            } else if (tokens[i] == "/") {
-                int a = stk.top();
-                stk.pop();
-                int b = stk.top();
-                stk.pop();
-                int divide = b/a;
-                stk.push(divide);
+                
+                if (tokens[i] == "+") stk.push(a+b);
+                if (tokens[i] == "-") stk.push(b-a);
+                if (tokens[i] == "*") stk.push(a*b);
+                if (tokens[i] == "/") stk.push(b/a);
             } else {
                 stk.push(stoi(tokens[i]));
             }
