@@ -1,30 +1,40 @@
 class Solution {
 public:
-    void bfs(vector<vector<char>>& grid, int i, int j) {
-        if(i<0 or i>=grid.size() or j<0 or j>=grid[0].size()) return;
-        if(grid[i][j] == '0') return;
-        
-        grid[i][j] = '0';
-        
-        bfs(grid, i+1, j);
-        bfs(grid, i-1, j);
-        bfs(grid, i, j+1);
-        bfs(grid, i, j-1);
-    }
-    
     int numIslands(vector<vector<char>>& grid) {
-        int m = grid.size(), n = grid[0].size();
-        int numIslands=0;
-        
+        int m=grid.size(), n=grid[0].size();
+        vector<vector<bool>> vis(m, vector<bool> (n, false));
+        int islands=0;
+        queue<pair<int, int>> q;
+        vector<pair<int, int>> dir{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
-                if(grid[i][j] == '1') {
-                    bfs(grid, i, j);
-                    numIslands++;
+                if(grid[i][j]=='1' and !vis[i][j]) {
+                    q.push({i, j});
+                    vis[i][j] = true;
+                    
+                    while(!q.empty()) {
+                        int x = q.front().first;
+                        int y = q.front().second;
+                        q.pop();
+                        
+                        // vis[x][y] = true;
+                        
+                        for(auto &it: dir) {
+                            int X = x+it.first;
+                            int Y = y+it.second;
+                            
+                            if(X<0 or X>=m or Y<0 or Y>=n or vis[X][Y]==true or grid[X][Y]=='0') continue;
+                            
+                            q.push({X, Y});
+                            vis[X][Y] = true;
+                        }
+                    }
+                    islands++;
                 }
+                
+                // vis[i][j]=true;
             }
         }
-        
-        return numIslands;
+        return islands;
     }
 };
