@@ -12,6 +12,7 @@
 class Solution {
 public:
     TreeNode* balanceBST(TreeNode* root) {
+        if(root==nullptr) return root;
         vector<int> nums;
         inorder(root, nums);
         return buildBST(nums, 0, nums.size()-1);
@@ -26,18 +27,16 @@ public:
     }
     
     TreeNode* buildBST(vector<int> &nums, int low, int high) {
-        if(low>high) return nullptr;
+        if(high<low) return nullptr;
         
         int mid = (high+low)/2;
         TreeNode* root = new TreeNode(nums[mid]);
         
-        if(low==high) return root;
+        if(high==low) return root;
         
-        root->left = buildBST(nums, low, mid-1);
-        root->right = buildBST(nums, mid+1, high);
+        root->left=buildBST(nums, low, mid-1);
+        root->right=buildBST(nums, mid+1, high);
         
         return root;
     }
-    
-    
 };
