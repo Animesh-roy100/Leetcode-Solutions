@@ -23,17 +23,33 @@ public:
     vector<int> postorder(Node* root) {
         vector<int> nums;
         if(root==NULL) return nums;
-        postOrder(root, nums);
-        nums.push_back(root->val);
+        // postOrder(root, nums);
+        // nums.push_back(root->val);
+        
+        
+        stack<Node*> stk({root});
+        
+        while(!stk.empty()) {
+            Node* curr = stk.top();
+            stk.pop();
+            
+            nums.push_back(curr->val);
+            
+            for(auto it: curr->children) {
+                stk.push(it);
+            }
+        }
+        
+        reverse(nums.begin(), nums.end());
         return nums;
     }
     
-    void postOrder(Node* root, vector<int> &nums) {
-        if(root==NULL) return;
+//     void postOrder(Node* root, vector<int> &nums) {
+//         if(root==NULL) return;
         
-        for(auto it: root->children) {
-            postOrder(it, nums);
-            nums.push_back(it->val);
-        }
-    }
+//         for(auto it: root->children) {
+//             postOrder(it, nums);
+//             nums.push_back(it->val);
+//         }
+//     }
 };
