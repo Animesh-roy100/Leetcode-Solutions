@@ -35,7 +35,7 @@ public:
                 Node *curr = q.front();
                 q.pop();
                 
-                if(curr==nullptr) continue;
+                // if(curr==nullptr) continue;
                 
                 v.push_back(curr->val);
                 
