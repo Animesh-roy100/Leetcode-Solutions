@@ -14,7 +14,16 @@ public:
     int kthSmallest(TreeNode* root, int k) {
         vector<int> nums;
         inorder(root, nums);
-        return nums[k-1];
+        priority_queue<int> pq;
+        
+        for(int i=0; i<nums.size(); i++) {
+            pq.push(nums[i]);
+            if(pq.size()>k) {
+                pq.pop();
+            }
+        }
+        
+        return pq.top();
     }
     
     void inorder(TreeNode* root, vector<int> &nums) {
