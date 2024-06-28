@@ -11,30 +11,37 @@
  */
 class Solution {
 public:
-    void helper(vector<TreeNode*> &ans, unordered_set<int> &st, TreeNode* root, bool isNewTree, TreeNode* par) {
-        if(root == NULL) return;
-        if(st.find(root->val) == st.end()) { // root not to be deleted
-            
-            if(isNewTree) ans.push_back(root), isNewTree = false;
-            
-            helper(ans, st, root->left, false, root);
-            helper(ans, st, root->right, false, root);
-        }
-        else { // root to be deleted
-            if(par && par->left && par->left->val == root->val) par->left = nullptr;
-            if(par && par->right && par->right->val == root->val) par->right = nullptr;
-            
-            helper(ans, st, root->left, true, root);
-            helper(ans, st, root->right, true, root);
-        }
-        
-    }
-    
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        vector<TreeNode*> ans;
-        unordered_set<int> st; for(int& node: to_delete) st.insert(node);
+        unordered_set<int> st;
+        for(int &node: to_delete) st.insert(node);
         
-        helper(ans, st, root, true, NULL);
+        vector<TreeNode*> ans;
+        
+        if(st.find(root->val) == st.end()) {
+            ans.push_back(root);
+        }
+        
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()) {
+            TreeNode *curr = q.front();
+            q.pop();
+            
+            if(curr->left) q.push(curr->left);
+            if(curr->right) q.push(curr->right);
+            
+            if(curr->left and st.find(curr->left->val) != st.end()) {
+                curr->left = NULL;
+            }
+            if(curr->right and st.find(curr->right->val) != st.end()) {
+                curr->right = NULL;
+            }
+            
+            if(st.find(curr->val) != st.end()) {
+                if(curr->left) ans.push_back(curr->left);
+                if(curr->right) ans.push_back(curr->right);
+            }
+        }
         
         return ans;
     }
