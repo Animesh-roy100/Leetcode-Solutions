@@ -12,17 +12,17 @@
 class Solution {
 public:
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        unordered_set<int> st;
-        for(int &node: to_delete) st.insert(node);
+        unordered_set<int> set;
+        for(int &node: to_delete) set.insert(node);
         
         vector<TreeNode*> ans;
-        
-        if(st.find(root->val) == st.end()) {
-            ans.push_back(root);
-        }
-        
         queue<TreeNode*> q;
         q.push(root);
+        
+        if(set.find(root->val) == set.end()) {
+            ans.push_back(root);
+        } 
+        
         while(!q.empty()) {
             TreeNode *curr = q.front();
             q.pop();
@@ -30,14 +30,14 @@ public:
             if(curr->left) q.push(curr->left);
             if(curr->right) q.push(curr->right);
             
-            if(curr->left and st.find(curr->left->val) != st.end()) {
-                curr->left = NULL;
+            if(curr->left and set.find(curr->left->val) != set.end()) {
+                curr->left = nullptr;
             }
-            if(curr->right and st.find(curr->right->val) != st.end()) {
-                curr->right = NULL;
+            if(curr->right and set.find(curr->right->val) != set.end()) {
+                curr->right = nullptr;
             }
             
-            if(st.find(curr->val) != st.end()) {
+            if(set.find(curr->val) != set.end()) {
                 if(curr->left) ans.push_back(curr->left);
                 if(curr->right) ans.push_back(curr->right);
             }
