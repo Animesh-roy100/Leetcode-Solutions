@@ -18,21 +18,13 @@ public:
         for(auto &desc: descriptions) {
             int parent = desc[0], child = desc[1], isLeftChild=desc[2];
             st.insert(child);
-            if(mp.find(desc[0]) == mp.end()) {
-                mp[parent] = new TreeNode(parent);
-                
-            }
-            if(isLeftChild==1) {
-                if(mp.find(child) == mp.end()) {
-                    mp[child] = new TreeNode(child);
-                }
-                mp[parent]->left = mp[child];
-            } else {
-                if(mp.find(child) == mp.end()) {
-                    mp[child] = new TreeNode(child);
-                }
-                mp[parent]->right = mp[child];
-            }
+            
+            if(mp.find(desc[0]) == mp.end()) mp[parent] = new TreeNode(parent);
+
+            if(mp.find(child) == mp.end()) mp[child] = new TreeNode(child);
+
+            if(isLeftChild==1) mp[parent]->left = mp[child];
+            else mp[parent]->right = mp[child];
         }
         
         for(auto &desc: descriptions) {
