@@ -21,7 +21,7 @@
  */
 class Solution {
 private:
-    bool solve(ListNode* head, TreeNode* root) {
+    bool solve(ListNode* head, TreeNode* root){
         if(head == nullptr) return true;
         if(root == nullptr or head->val != root->val) return false;
         
