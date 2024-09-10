@@ -9,6 +9,12 @@
  * };
  */
 class Solution {
+private:
+    int gcd(int a, int b) {
+        if (a == b) return a;
+        if (a > b) return gcd(a-b, a);
+        return gcd(a, b-a);
+    }
 public:
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         if (!head || !head->next) {
