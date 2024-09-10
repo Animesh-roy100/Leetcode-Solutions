@@ -10,65 +10,55 @@
  */
 class Solution {
 public:
-    vector<vector<int>> spiralMatrix(int n, int m, ListNode* head) 
-    {
-		// Create a matrix of n x m with values filled with -1.
-        vector<vector<int>> spiral(n, vector<int>(m, -1));
-        int i = 0, j = 0;
-		// Traverse the matrix in spiral form, and update with the values present in the head list.
-		// If head reacher NULL pointer break out from the loop, and return the spiral matrix.
-        while (head != NULL)
-        {
-            if (j < m)
-            {
-                while (head != NULL && j < m && spiral[i][j] == -1)
-                {
-                    spiral[i][j] = head->val;
-                    head = head->next;
-                    j++;
+    vector<vector<int>> spiralMatrix(int m, int n, ListNode* head) {
+        vector<vector<int>> ans(m, vector<int> (n, -1));
+        ListNode* curr = head;
+        int row=0, col=0;
+        while(curr != nullptr) {
+            if(col<n) {
+                while(curr != nullptr and col<n and ans[row][col] == -1) {
+                    ans[row][col] = curr->val;
+                    curr = curr->next;
+                    col++;
                 }
-                if (head == NULL)
-                    break;
-                i++;
-                j--;
+                row++;
+                col--;
             }
-            if (i < n)
-            {
-                while (head != NULL && i < n && spiral[i][j] == -1)
-                {
-                    spiral[i][j] = head->val;
-                    head = head->next;
-                    i++;
+            
+            if(row<m) {
+                while(curr != nullptr and row<m and ans[row][col] == -1) {
+                    ans[row][col] = curr->val;
+                    curr = curr->next;
+                    row++;
                 }
-                i--;
-                j--;
+                row--;
+                col--;
             }
-            if (j >= 0)
-            {
-                while (head != NULL && j >= 0 && spiral[i][j] == -1)
-                {
-                    spiral[i][j] = head->val;
-                    head = head->next;
-                    j--;
+            
+            if(col>=0) {
+                while(curr != nullptr and col>=0 and ans[row][col] == -1) {
+                    ans[row][col] = curr->val;
+                    curr = curr->next;
+                    col--;
                 }
-                j++;
-                i--;
+                row--;
+                col++;
             }
-            if (i >= 0)
-            {
-                while (head != NULL && i >= 0 && spiral[i][j] == -1)
-                {
-                    spiral[i][j] = head->val;
-                    head = head->next;
-                    i--;
+            
+            if(row>=0) {
+                while(curr != nullptr and row >=0 and ans[row][col] == -1) {
+                    ans[row][col] = curr->val;
+                    curr = curr->next;
+                    row--;
                 }
-                i++;
-                j++;
+                row++;
+                col++;
             }
-            n--;
-            m++;
+            
+            m--;
+            n++;
         }
-		// Rest values are itself -1.
-        return spiral;
+        
+        return ans;
     }
 };
