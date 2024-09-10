@@ -15,7 +15,7 @@ public:
         ListNode* curr = head;
         int row=0, col=0;
         while(curr != nullptr) {
-            if(col<n) {
+            // if(col<n) {
                 while(curr != nullptr and col<n and ans[row][col] == -1) {
                     ans[row][col] = curr->val;
                     curr = curr->next;
@@ -23,9 +23,9 @@ public:
                 }
                 row++;
                 col--;
-            }
+            // }
             
-            if(row<m) {
+            // if(row<m) {
                 while(curr != nullptr and row<m and ans[row][col] == -1) {
                     ans[row][col] = curr->val;
                     curr = curr->next;
@@ -33,9 +33,9 @@ public:
                 }
                 row--;
                 col--;
-            }
+            // }
             
-            if(col>=0) {
+            // if(col>=0) {
                 while(curr != nullptr and col>=0 and ans[row][col] == -1) {
                     ans[row][col] = curr->val;
                     curr = curr->next;
@@ -43,9 +43,9 @@ public:
                 }
                 row--;
                 col++;
-            }
+            // }
             
-            if(row>=0) {
+            // if(row>=0) {
                 while(curr != nullptr and row >=0 and ans[row][col] == -1) {
                     ans[row][col] = curr->val;
                     curr = curr->next;
@@ -53,7 +53,7 @@ public:
                 }
                 row++;
                 col++;
-            }
+            // }
             
             m--;
             n++;
