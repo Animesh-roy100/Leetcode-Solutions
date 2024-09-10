@@ -15,45 +15,37 @@ public:
         ListNode* curr = head;
         int row=0, col=0;
         while(curr != nullptr) {
-            // if(col<n) {
-                while(curr != nullptr and col<n and ans[row][col] == -1) {
-                    ans[row][col] = curr->val;
-                    curr = curr->next;
-                    col++;
-                }
-                row++;
-                col--;
-            // }
-            
-            // if(row<m) {
-                while(curr != nullptr and row<m and ans[row][col] == -1) {
-                    ans[row][col] = curr->val;
-                    curr = curr->next;
-                    row++;
-                }
-                row--;
-                col--;
-            // }
-            
-            // if(col>=0) {
-                while(curr != nullptr and col>=0 and ans[row][col] == -1) {
-                    ans[row][col] = curr->val;
-                    curr = curr->next;
-                    col--;
-                }
-                row--;
+            while(curr != nullptr and col<n and ans[row][col] == -1) {
+                ans[row][col] = curr->val;
+                curr = curr->next;
                 col++;
-            // }
-            
-            // if(row>=0) {
-                while(curr != nullptr and row >=0 and ans[row][col] == -1) {
-                    ans[row][col] = curr->val;
-                    curr = curr->next;
-                    row--;
-                }
+            }
+            row++;
+            col--;
+
+            while(curr != nullptr and row<m and ans[row][col] == -1) {
+                ans[row][col] = curr->val;
+                curr = curr->next;
                 row++;
-                col++;
-            // }
+            }
+            row--;
+            col--;
+
+            while(curr != nullptr and col>=0 and ans[row][col] == -1) {
+                ans[row][col] = curr->val;
+                curr = curr->next;
+                col--;
+            }
+            row--;
+            col++;
+
+            while(curr != nullptr and row >=0 and ans[row][col] == -1) {
+                ans[row][col] = curr->val;
+                curr = curr->next;
+                row--;
+            }
+            row++;
+            col++;
             
             m--;
             n++;
