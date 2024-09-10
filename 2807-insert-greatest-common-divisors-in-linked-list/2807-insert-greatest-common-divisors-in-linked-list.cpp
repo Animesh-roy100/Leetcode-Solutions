@@ -23,13 +23,10 @@ public:
         
         ListNode* curr = head;
         
-        while(curr->next != nullptr) {
-            int first = curr->val;
-            int second = curr->next->val;
-            int gcdValue = gcd(first, second);
+        while(curr->next != nullptr) {            
+            int gcdVal = gcd(curr->val, curr->next->val);
             
-            ListNode* newNode = new ListNode(gcdValue);
-            
+            ListNode* newNode = new ListNode(gcdVal);
             newNode->next = curr->next;
             curr->next = newNode;
             
