@@ -1,31 +1,35 @@
 class CustomStack {
 public:
-    int max;
     vector<int> v;
+    int max;
     CustomStack(int maxSize) {
         max=maxSize;
     }
     
     void push(int x) {
-        if(v.size()<max)
+        if(v.size() < max) {
             v.push_back(x);
+        }
     }
     
     int pop() {
-        if(v.size()==0)
-            return -1;
-        int x=v.back();
+        if(v.size() == 0) return -1;
+        int ele = v[v.size()-1];
         v.pop_back();
-        return x;
+        return ele;
     }
+    
     void increment(int k, int val) {
-        int x=k;
-        if(v.size()<k)
-            x=v.size();
-        for(int i=0;i<x;i++)
-        {
-            v[i]+=val;
+        if(v.size() > k) {
+            for(int i=0; i<k; i++) {
+                v[i] += val;
+            }
+        } else {
+            for(int i=0; i<v.size(); i++) {
+                v[i] += val;
+            }
         }
+        
     }
 };
 
