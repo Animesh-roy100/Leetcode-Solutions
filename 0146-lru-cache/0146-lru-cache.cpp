@@ -1,8 +1,8 @@
 class LRUCache {
 private: 
     class Node {
-    public:
-        int key;
+        public:
+            int key;
         int value;
         Node *next;
         Node *prev;
