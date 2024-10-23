@@ -1,11 +1,11 @@
 class LRUCache {
-private: 
-    class Node {
+private:
+    class Node{
         public:
             int key;
         int value;
-        Node *next;
         Node *prev;
+        Node *next;
         Node(int _key, int _value) {
             key = _key;
             value = _value;
@@ -17,7 +17,7 @@ private:
     Node *head = new Node(-1, -1);
     Node *tail = new Node(-1, -1);
     
-    void removeNode(Node *node) {
+    void deleteNode(Node *node) {
         Node *prevNode = node->prev;
         Node *nextNode = node->next;
         prevNode->next = nextNode;
@@ -28,10 +28,10 @@ private:
         Node *temp = head->next;
         node->prev = head;
         node->next = temp;
-        temp->prev = node;
         head->next = node;
+        temp->prev = node;
     }
-
+    
 public:
     LRUCache(int capacity) {
         cap = capacity;
@@ -42,11 +42,11 @@ public:
     int get(int key) {
         if(m.find(key) == m.end()) return -1;
         
-        Node *temp = m[key];
-        int res = temp->value;
+        Node *resNode = m[key];
+        int res = resNode->value;
         m.erase(key);
-        removeNode(temp);
-        addNode(temp);
+        deleteNode(resNode);
+        addNode(resNode);
         m[key] = head->next;
         
         return res;
@@ -54,14 +54,14 @@ public:
     
     void put(int key, int value) {
         if(m.find(key) != m.end()) {
-            Node *temp = m[key];
+            Node *existingNode = m[key];
             m.erase(key);
-            removeNode(temp);
+            deleteNode(existingNode);
         }
         
         if(m.size() == cap) {
             m.erase(tail->prev->key);
-            removeNode(tail->prev);
+            deleteNode(tail->prev);
         }
         
         addNode(new Node(key, value));
