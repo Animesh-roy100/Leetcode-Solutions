@@ -1,22 +1,20 @@
 class Solution {
 public:
-    int solve(vector<int> &coins, int i, int amt, vector<vector<int>> &dp) {
-        if(amt==0) return 1;
-        if(i==0) return 0;
-        
-        if(dp[i][amt] != -1) return dp[i][amt];
-        
-        if(coins[i-1] <= amt) {
-            return dp[i][amt] = solve(coins, i, amt-coins[i-1], dp) + solve(coins, i-1, amt, dp);
-        } else {
-            return dp[i][amt] = solve(coins, i-1, amt, dp);
-        }
-    }
-    
+    #define ui unsigned int
     int change(int amt, vector<int>& coins) {
-        int n = coins.size();
-        vector<vector<int>> dp(n+1, vector<int> (amt+1, -1));
+        int n=coins.size();
+        vector<vector<ui>> dp(n+1, vector<ui> (amt+1, 0));
+        dp[0][0] = 1;
+        for(int i=1; i<=n; i++) {
+            for(int j=0; j<=amt; j++) {
+                if(coins[i-1] <= j) {
+                    dp[i][j] = dp[i][j-coins[i-1]] + dp[i-1][j];
+                } else {
+                    dp[i][j] = dp[i-1][j];
+                }
+            }
+        }
         
-        return solve(coins, n, amt, dp);
+        return dp[n][amt];
     }
 };
