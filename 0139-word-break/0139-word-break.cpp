@@ -21,7 +21,7 @@ public:
         int n=s.length();
         unordered_set<string> set;
         for(string word: wordDict) set.insert(word);
-        vector<int> dp(n+1, -1);
+        vector<int> dp(n, -1);
         return solve(0, s, set, dp);
     }
 };
