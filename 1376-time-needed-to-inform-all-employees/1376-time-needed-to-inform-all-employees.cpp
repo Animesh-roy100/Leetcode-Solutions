@@ -1,22 +1,23 @@
 class Solution {
 public:
-    int solve(vector<vector<int>> &emp, int headID, vector<int> &informTime) {
-        int time=0;
-        for(int id: emp[headID]) {
-            time = max(time, informTime[headID] + solve(emp, id, informTime));
-        }    
+    int solve(vector<vector<int>> &adj, int headID, vector<int> &informTime) {
+        int time = 0;
+        
+        for(int ind: adj[headID]) {
+            time = max(time, informTime[headID] + solve(adj, ind, informTime));
+        }
         
         return time;
     }
     
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
-        vector<vector<int>> emp(n);
+        vector<vector<int>> adj(n);
         for(int i=0; i<n; i++) {
             if(manager[i] != -1) {
-                emp[manager[i]].push_back(i);
+                adj[manager[i]].push_back(i);
             }
         }
         
-        return solve(emp, headID, informTime);
+        return solve(adj, headID, informTime);
     }
 };
