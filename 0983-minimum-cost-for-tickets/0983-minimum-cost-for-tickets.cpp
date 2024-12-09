@@ -8,10 +8,10 @@ public:
         int dayCost = costs[0] + solve(idx+1, days, costs, dp);
         
         int currIdx;
-        for(currIdx=idx; currIdx<n and days[currIdx] < days[idx] + 7; currIdx++);
+        for(currIdx = idx; currIdx<n and days[currIdx] < days[idx] + 7; currIdx++);
         int weekCost = costs[1] + solve(currIdx, days, costs, dp);
         
-        for(currIdx=idx; currIdx<n and days[currIdx] < days[idx] + 30; currIdx++);
+        for(currIdx = idx; currIdx<n and days[currIdx] < days[idx] + 30; currIdx++);
         int monthCost = costs[2] + solve(currIdx, days, costs, dp);
         
         return dp[idx] = min({dayCost, weekCost, monthCost});
