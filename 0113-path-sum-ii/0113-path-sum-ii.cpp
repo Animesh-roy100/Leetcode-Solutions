@@ -14,9 +14,10 @@ public:
     vector<vector<int>> ans;
     void solve(TreeNode *root, int target, vector<int> &path) {
         if(root==nullptr) return;
-        path.push_back(root->val);
         
+        path.push_back(root->val);
         target -= root->val;
+        
         if(root->left == nullptr and root->right == nullptr and target == 0) {
             ans.push_back(path);
         }
