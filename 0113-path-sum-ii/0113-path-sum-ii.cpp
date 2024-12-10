@@ -14,16 +14,15 @@ public:
     vector<vector<int>> ans;
     void solve(TreeNode *root, int target, vector<int> &path) {
         if(root==nullptr) return;
-        
         path.push_back(root->val);
         
-        if(root->left == nullptr and root->right == nullptr and target == root->val) {
+        target -= root->val;
+        if(root->left == nullptr and root->right == nullptr and target == 0) {
             ans.push_back(path);
         }
         
-        int value = root->val;
-        solve(root->left, target-value, path);
-        solve(root->right, target-value, path);
+        solve(root->left, target, path);
+        solve(root->right, target, path);
         
         path.pop_back();
     }
