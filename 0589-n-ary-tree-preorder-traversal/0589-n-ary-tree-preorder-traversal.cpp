@@ -20,35 +20,18 @@ public:
 
 class Solution {
 public:
-    vector<int> preorder(Node* root) {
-        vector<int> ans;
-        if(root==NULL) return ans;
-        // ans.push_back(root->val);
-        // preOrder(root, ans);
+    vector<int> ans;
+    void solve(Node* root) {
+        if(root==nullptr) return;
+        ans.push_back(root->val);
         
-        stack<Node*> stk;
-        stk.push(root);
-        
-        while(!stk.empty()) {
-            Node* curr = stk.top();
-            stk.pop();
-            
-            ans.push_back(curr->val);
-            
-            for(int i=curr->children.size()-1; i>=0; i--) {
-                stk.push(curr->children[i]);
-            }
+        for(auto it: root->children) {
+            preorder(it);
         }
-        
-        return ans;
     }
     
-//     void preOrder(Node* root, vector<int> &ans) {
-//         if(root==NULL) return;
-        
-//         for(auto it: root->children) {
-//             ans.push_back(it->val);
-//             preOrder(it, ans);
-//         }
-//     }
+    vector<int> preorder(Node* root) {
+        solve(root);        
+        return ans;
+    }
 };
