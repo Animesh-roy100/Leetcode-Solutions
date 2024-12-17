@@ -1,26 +1,25 @@
 class Solution {
 public:
-    bool solve(int i, string s, unordered_set<string> &set, vector<int> &dp) {
-        if(i==s.length()) return true;
-        if(dp[i] != -1) return dp[i];
+    bool solve(int idx, string s, unordered_set<string> &st, vector<int> &dp) {	
+        if(idx == s.length()) return true;
+	    if(dp[idx] != -1) return dp[idx];
         string str="";
-        for(int j=i; j<s.length(); j++) {
-            str += s[j];
-            if(set.find(str) != set.end()) {
-                if(solve(j+1, s, set, dp)){
+        for(int i=idx; i<s.length(); i++) {
+            str.push_back(s[i]);
+            if(st.find(str) != st.end()) {
+                if(solve(i+1, s, st, dp)) {
                     return dp[i] = true;
                 }
             }
         }
-        
-        return dp[i] = false;
-    }
+        return dp[idx] = false;
+    } 
     
-    bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> set;
-        for(string str: wordDict) set.insert(str);
+    bool wordBreak(string s, vector<string>& dict) {
+        unordered_set<string> st;
+        for(auto str: dict) st.insert(str);
         int n=s.length();
         vector<int> dp(n, -1);
-        return solve(0, s, set, dp);
+        return solve(0, s, st, dp);
     }
 };
