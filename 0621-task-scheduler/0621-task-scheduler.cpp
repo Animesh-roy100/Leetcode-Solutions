@@ -1,41 +1,33 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        vector<int> count(26, 0);
-        for(int i=0; i<tasks.size(); i++) {
-            count[tasks[i]-'A']++;
-        }
-        
         priority_queue<int> pq;
-        for(int i=0; i<26; i++) {
-            if(count[i]) pq.push(count[i]);
+        vector<int> v(26, 0);
+        for(auto task: tasks) {
+            v[task-'A']++;
         }
-        
-        // cout<<pq.top();
+        for(int i=0; i<26; i++) {
+            if(v[i]>0) pq.push(v[i]);
+        }
         
         int time=0;
         while(!pq.empty()) {
             vector<int> remaining;
             int cycle = n+1;
-            
-            while(cycle and !pq.empty()) {
-                int maxFreq = pq.top();
+            while(!pq.empty() and cycle) {
+                int maxTask = pq.top();
                 pq.pop();
-                if(maxFreq > 1) {
-                    remaining.push_back(maxFreq-1);
-                }
-                time++;
+                if(maxTask>1) remaining.push_back(maxTask-1);
                 cycle--;
+                time++;
             }
             
-            for(int i=0; i<remaining.size(); i++) {
-                pq.push(remaining[i]);
-            }
-            
+            for(int i: remaining) pq.push(i);
             if(pq.empty()) break;
             
             time += cycle;
         }
+        
         return time;
     }
 };
