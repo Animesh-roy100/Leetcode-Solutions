@@ -1,40 +1,28 @@
 class Solution {
 public:
+    void dfs(int i, int j, vector<vector<char>> &grid, vector<vector<bool>> &vis) {
+        int m=grid.size(), n=grid[0].size();
+        if(i<0 or i>=m or j<0 or j>=n or grid[i][j] == '0' or vis[i][j]) return;
+        vis[i][j] = true;
+        dfs(i+1, j, grid, vis);
+        dfs(i-1, j, grid, vis);
+        dfs(i, j+1, grid, vis);
+        dfs(i, j-1, grid, vis);
+    }
+    
     int numIslands(vector<vector<char>>& grid) {
         int m=grid.size(), n=grid[0].size();
         vector<vector<bool>> vis(m, vector<bool> (n, false));
-        int islands=0;
-        queue<pair<int, int>> q;
-        vector<pair<int, int>> dir{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+        int count=0;
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
-                if(grid[i][j]=='1' and !vis[i][j]) {
-                    q.push({i, j});
-                    vis[i][j] = true;
-                    
-                    while(!q.empty()) {
-                        int x = q.front().first;
-                        int y = q.front().second;
-                        q.pop();
-                        
-                        // vis[x][y] = true;
-                        
-                        for(auto &it: dir) {
-                            int X = x+it.first;
-                            int Y = y+it.second;
-                            
-                            if(X<0 or X>=m or Y<0 or Y>=n or vis[X][Y]==true or grid[X][Y]=='0') continue;
-                            
-                            q.push({X, Y});
-                            vis[X][Y] = true;
-                        }
-                    }
-                    islands++;
+                if(!vis[i][j] and grid[i][j] == '1') {
+                    count++;
+                    dfs(i, j, grid, vis);
                 }
-                
-                // vis[i][j]=true;
             }
         }
-        return islands;
+        
+        return count;
     }
 };
