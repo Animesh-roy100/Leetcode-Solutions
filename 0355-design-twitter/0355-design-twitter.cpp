@@ -1,14 +1,15 @@
 class Twitter {
 public:
-    unordered_map<int, vector<pair<int, int>>> tweets; 
+    unordered_map<int, vector<pair<int, int>>> tweets;
     unordered_map<int, unordered_set<int>> followers;
-    int timeStamp;
+    int time;
+    
     Twitter() {
-        timeStamp=0;
+        time = 0;
     }
     
     void postTweet(int userId, int tweetId) {
-        tweets[userId].push_back({timeStamp++, tweetId});
+        tweets[userId].push_back({time++, tweetId});
     }
     
     vector<int> getNewsFeed(int userId) {
@@ -23,19 +24,19 @@ public:
             }
         }
         
-        vector<int> ans;
-        int maxTweets=10;
-        while(!pq.empty() and maxTweets-->0) {
-            ans.push_back(pq.top().second);
+        vector<int> feed;
+        int maxFeed=10;
+        while(!pq.empty() and maxFeed-->0) {
+            feed.push_back(pq.top().second);
             pq.pop();
         }
         
-        return ans;
+        return feed;
     }
     
     void follow(int followerId, int followeeId) {
         if(followerId != followeeId) {
-            followers[followerId].insert(followeeId);   
+            followers[followerId].insert(followeeId);
         }
     }
     
