@@ -7,7 +7,7 @@ public:
         int prev2 = 0; // dp[i-2]
         
         for(int i=0; i<n; i++) {
-            if(i<=1) prev2=0;
+            // if(i<=1) prev2=0;
             int take = nums[i] + prev2;
             int notTake = prev1;
             
