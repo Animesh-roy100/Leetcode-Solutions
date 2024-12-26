@@ -16,15 +16,30 @@ public:
         // return solve(n, nums, dp);
         if(n==1) return nums[0];
         
-        vector<int> dp(n, 0);
-        dp[0] = nums[0];
-        for(int i=1; i<n; i++) {
-            int take = nums[i] + (i>1 ? dp[i-2] : 0);
-            int notTake = dp[i-1];
+//         vector<int> dp(n, 0);
+//         dp[0] = nums[0];
+//         for(int i=1; i<n; i++) {
+//             int take = nums[i] + (i>1 ? dp[i-2] : 0);
+//             int notTake = dp[i-1];
         
-            dp[i] = max(take, notTake);
+//             dp[i] = max(take, notTake);
+//         }
+        
+//         return dp[n-1];
+        
+        int prev1=0; // dp[i-1]
+        int prev2=0; // dp[i-2]
+        
+        for(int i=0; i<n; i++) {
+            int take = nums[i] + prev2;
+            int notTake = prev1;
+            
+            int current = max(take, notTake);
+            
+            prev2 = prev1;
+            prev1 = current;
         }
         
-        return dp[n-1];
+        return prev1;
     }
 };
