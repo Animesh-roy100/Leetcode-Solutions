@@ -5,10 +5,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 ## Stack
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 ## Recursion
 |  |
 | ------- |
@@ -33,4 +35,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3430-count-days-without-meetings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3430-count-days-without-meetings) |
+## Greedy
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 <!---LeetCode Topics End-->
