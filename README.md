@@ -55,4 +55,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
+## Linked List
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
+## Randomized
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
 <!---LeetCode Topics End-->
