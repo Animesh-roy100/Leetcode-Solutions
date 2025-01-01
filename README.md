@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0394-decode-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 ## Stack
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0039-combination-sum) |
+| [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 ## Sorting
 |  |
 | ------- |
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
 ## Linked List
 |  |
