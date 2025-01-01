@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0416-partition-equal-subset-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
+| [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3430-count-days-without-meetings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3430-count-days-without-meetings) |
@@ -83,8 +84,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
+| [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 ## Sliding Window
 |  |
 | ------- |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+## Depth-First Search
+|  |
+| ------- |
+| [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
+## Matrix
+|  |
+| ------- |
+| [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 <!---LeetCode Topics End-->
