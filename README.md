@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
+| [0338-counting-bits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0338-counting-bits) |
 | [0416-partition-equal-subset-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 ## Backtracking
@@ -127,4 +128,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
