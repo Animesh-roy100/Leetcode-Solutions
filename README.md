@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0050-powx-n) |
 | [0394-decode-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0394-decode-string) |
 ## Array
 |  |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0050-powx-n) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
