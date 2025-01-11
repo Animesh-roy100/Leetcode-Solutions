@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
+| [0136-single-number](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0416-partition-equal-subset-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
@@ -131,5 +132,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
