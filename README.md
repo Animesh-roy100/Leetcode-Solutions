@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
 | [0416-partition-equal-subset-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0050-powx-n) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
 ## Linked List
@@ -139,4 +141,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0338-counting-bits) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
