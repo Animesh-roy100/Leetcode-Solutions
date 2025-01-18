@@ -16,14 +16,10 @@ public:
 
     int splitArray(vector<int>& nums, int k) {
         int n=nums.size();
-        vector<int> prefixSum(n, 0);
-        prefixSum[0]=nums[0];
-        for(int i=1; i<n; i++) {
-            prefixSum[i] = prefixSum[i-1] + nums[i];
-        }
 
         int low = *max_element(nums.begin(), nums.end());
-        int high = prefixSum[n-1];
+        int high = 0;
+        for(int num: nums) high += num;
         int ans=-1;
         while(low<=high) {
             int mid = low + (high - low)/2;
