@@ -7,14 +7,22 @@ public:
         vector<vector<int>> distance(m, vector<int> (n, INT_MAX));
         vector<pair<int, int>> dir{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-        priority_queue<piii, vector<piii>, greater<piii>> pq;
-        pq.push({0, {0, 0}});
+        // priority_queue<piii, vector<piii>, greater<piii>> pq;
+        // pq.push({0, {0, 0}});
 
-        while(!pq.empty()) {
-            int dist = pq.top().first;
-            int x = pq.top().second.first;
-            int y = pq.top().second.second;
-            pq.pop();
+        deque<piii> q;
+        q.push_back({0, {0, 0}});
+
+        while(!q.empty()) {
+            // int dist = pq.top().first;
+            // int x = pq.top().second.first;
+            // int y = pq.top().second.second;
+            // pq.pop();
+            
+            int dist = q.front().first;
+            int x = q.front().second.first;
+            int y = q.front().second.second;
+            q.pop_front();
 
             for(auto it: dir) {
                 int newX = it.first + x;
@@ -24,7 +32,13 @@ public:
                 
                 if(dist + grid[newX][newY] < distance[newX][newY]) {
                     distance[newX][newY] = dist + grid[newX][newY];
-                    pq.push({distance[newX][newY], {newX, newY}});
+                    // pq.push({distance[newX][newY], {newX, newY}});
+
+                    if(grid[newX][newY]) {
+                        q.push_back({distance[newX][newY], {newX, newY}});
+                    } else {
+                        q.push_front({distance[newX][newY], {newX, newY}});
+                    }
                 }
             }
         }
