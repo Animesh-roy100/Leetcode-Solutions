@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [0833-bus-routes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0833-bus-routes) |
+| [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
+| [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
+| [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
+| [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
