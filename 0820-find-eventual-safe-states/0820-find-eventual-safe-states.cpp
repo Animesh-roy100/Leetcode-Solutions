@@ -17,7 +17,7 @@ public:
         for(int i=0; i<n; i++) {
             if(outdegree[i] == 0) {
                 q.push(i);
-                ans.push_back(i);
+                // ans.push_back(i);
             }
         }
 
@@ -28,12 +28,15 @@ public:
             for(auto newNode: adj[node]) {
                 if(--outdegree[newNode] == 0) {
                     q.push(newNode);
-                    ans.push_back(newNode);
+                    // ans.push_back(newNode);
                 }
             }
         }
 
-        sort(ans.begin(), ans.end());
+        // sort(ans.begin(), ans.end());
+        for(int i=0; i<n; i++) {
+            if(outdegree[i] == 0) ans.push_back(i);
+        }
 
         return ans;
     }
