@@ -1,28 +1,31 @@
 class Solution {
 public:
-    const int MOD = 1e9+7;
-    int findTargetSumWays(vector<int>& nums, int target) {
-        int sum = 0;
-        for(int num: nums) sum += num;
-        
-        int total = sum - target;
-        if(total < 0 or total%2 != 0) return 0;
-        total /= 2;
-        
-        int n=nums.size();
-        vector<vector<int>> dp(n+1, vector<int> (total+1 , 0));
-        dp[0][0] = 1;
-        
-        for(int i=1; i<=n; i++) {
-            for(int j=0; j<=total; j++) {
-                if(nums[i-1] <= j) {
-                    dp[i][j] = (dp[i-1][j-nums[i-1]] + dp[i-1][j]) % MOD;
-                } else {
-                    dp[i][j] = dp[i-1][j];
-                }
-            }
+    int solve(int idx, int total, vector<int> &nums, vector<vector<int>> &dp) {
+        if(idx == nums.size()) {
+            if(total == 0) return 1;
+            else return 0;
         }
-        
-        return dp[n][total];
+
+        if(dp[idx][total] != -1) return dp[idx][total];
+
+        if(nums[idx] <= total) {
+            return dp[idx][total] = solve(idx+1, total-nums[idx], nums, dp) + solve(idx+1, total, nums, dp);
+        } else {
+            return dp[idx][total] = solve(idx+1, total, nums, dp);
+        }
+
+        return dp[idx][total];
+    }
+
+    int findTargetSumWays(vector<int>& nums, int target) {
+        int sum=0;
+        for(auto num: nums) sum+=num;
+
+        int total = sum-target;
+        if(total%2 != 0 or total<0) return 0;
+        total /= 2;
+
+        vector<vector<int>> dp(nums.size()+1, vector<int> (total+1, -1));
+        return solve(0, total, nums, dp);
     }
 };
