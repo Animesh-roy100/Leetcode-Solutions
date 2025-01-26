@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
+| [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
+| [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [3430-count-days-without-meetings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3430-count-days-without-meetings) |
 ## Greedy
 |  |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0833-bus-routes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0833-bus-routes) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
+| [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Breadth-First Search
 |  |
@@ -225,10 +228,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -259,4 +264,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
+## Ordered Set
+|  |
+| ------- |
+| [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 <!---LeetCode Topics End-->
