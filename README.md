@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
 | [0793-swap-adjacent-in-lr-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0793-swap-adjacent-in-lr-string) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 ## Stack
 |  |
 | ------- |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0126-word-ladder-ii) |
 | [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 ## Sorting
 |  |
 | ------- |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0833-bus-routes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0833-bus-routes) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Breadth-First Search
