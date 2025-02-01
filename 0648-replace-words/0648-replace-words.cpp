@@ -56,9 +56,11 @@ class Solution {
 public:
     string replaceWords(vector<string>& dictionary, string sentence) {
         Trie t;
+        // Put words in dictionary to trie
         for(string word: dictionary) t.insert(word);
 
         string ans, word;
+        // split the sentence & find ans
         for(char c: sentence){
             if(c == ' ') {
                 ans += t.findPrefix(word);
