@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [0806-domino-and-tromino-tiling](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0806-domino-and-tromino-tiling) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 ## Backtracking
 |  |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
 ## Matrix
 |  |
@@ -302,4 +304,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
+## Tree
+|  |
+| ------- |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 <!---LeetCode Topics End-->
