@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3430-count-days-without-meetings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3430-count-days-without-meetings) |
 ## Dynamic Programming
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -267,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Shortest Path
 |  |
 | ------- |
