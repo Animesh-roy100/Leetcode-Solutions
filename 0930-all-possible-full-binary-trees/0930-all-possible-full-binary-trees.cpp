@@ -11,13 +11,15 @@
  */
 class Solution {
 public:
-    
+    unordered_map<int, vector<TreeNode*>> mp;
     vector<TreeNode*> solve(int n) {
         if(n%2 == 0) return {}; // n is even
         if(n == 1) {
             TreeNode* root = new TreeNode(0);
             return {root};
         }
+
+        if(mp.find(n) != mp.end()) return mp[n];
 
         vector<TreeNode*> res;
 
@@ -35,7 +37,7 @@ public:
             }
         }
 
-        return res;
+        return mp[n] = res;
     }
 
     vector<TreeNode*> allPossibleFBT(int n) {
