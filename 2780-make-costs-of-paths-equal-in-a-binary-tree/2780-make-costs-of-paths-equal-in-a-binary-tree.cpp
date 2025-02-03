@@ -3,21 +3,23 @@ public:
     int ans=0;
 
     int solve(int node, int n, vector<int> &cost) {
-        if(node >= n) return 0;
+        // if this node doesn't exist(if it is greater that n) then return 0
+        if(node > n) return 0;
 
-        // if(dp[node] != -1) return dp[node];
+        // the left and right path cost
+        int left = solve(2*node, n, cost);
+        int right = solve(2*node+1, n, cost);
 
-        int left = solve(2*node+1, n, cost);
-        int right = solve(2*node+2, n, cost);
-
+        // store the difference needed to make the left and right path equal
         ans += abs(left-right);
 
-        return cost[node] + max(left, right);
+        // return the current path
+        return cost[node-1] + max(left, right);
     }
 
     int minIncrements(int n, vector<int>& cost) {
         // vector<int> dp(n+1, -1);
-        solve(0, n, cost);
+        solve(1, n, cost);
         return ans;
     }
 };
