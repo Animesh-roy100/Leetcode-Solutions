@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3430-count-days-without-meetings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3430-count-days-without-meetings) |
 ## Dynamic Programming
 |  |
