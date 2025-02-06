@@ -1,7 +1,6 @@
 class TrieNode {
 public:
     TrieNode* child[2];
-
     TrieNode() {
         child[0] = nullptr;
         child[1] = nullptr;
@@ -10,7 +9,7 @@ public:
 
 class Trie {
 public:
-    TrieNode *root;
+    TrieNode* root;
     Trie() {
         root = new TrieNode();
     }
@@ -18,40 +17,40 @@ public:
     void insert(int num) {
         TrieNode* temp = root;
         for(int i=31; i>=0; i--) {
-            int bit = (num >> i) & 1;
+            int bit = (1 << i) & num;
             if(bit) {
                 if(temp->child[1] == nullptr) temp->child[1] = new TrieNode();
-                temp = temp->child[1];    
-            }
-            else {
+                temp = temp->child[1];
+            } else {
                 if(temp->child[0] == nullptr) temp->child[0] = new TrieNode();
                 temp = temp->child[0];
             }
         }
     }
 
-    int findMaxXOR(int num) {
+    int findMaximum(int num) {
         TrieNode* temp = root;
-        int ans=0;
+        int res=0;
         for(int i=31; i>=0; i--) {
-            int bit = (num >> i) & 1;
+            int bit = (1 << i) & num;
             if(bit) {
                 if(temp->child[0] != nullptr) {
-                    ans += (1<<i);
+                    res += (1<<i);
                     temp = temp->child[0];
                 } else {
                     temp = temp->child[1];
                 }
             } else {
                 if(temp->child[1] != nullptr) {
-                    ans += (1<<i);
+                    res += (1<<i);
                     temp = temp->child[1];
                 } else {
                     temp = temp->child[0];
                 }
             }
         }
-        return ans;
+
+        return res;
     }
 };
 
@@ -63,7 +62,7 @@ public:
 
         int ans=0;
         for(int num: nums) {
-            ans = max(ans, t.findMaxXOR(num));
+            ans = max(ans, t.findMaximum(num));
         }
 
         return ans;
