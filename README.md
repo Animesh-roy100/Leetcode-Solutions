@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
 | [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
 | [0833-bus-routes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0833-bus-routes) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1619-path-crossing](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1619-path-crossing) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -349,5 +351,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 <!---LeetCode Topics End-->
