@@ -1,13 +1,12 @@
 class NumberContainers {
 public:
-    map<int, int> container; // {index, number}
-    map<int, set<int>> numberIdx;
+    unordered_map<int, int> container; // {index, number}
+    unordered_map<int, set<int>> numberIdx;
     NumberContainers() {
         
     }
     
     void change(int index, int number) {
-        
         if(container.find(index) != container.end()) {
             int oldNum = container[index];
             numberIdx[oldNum].erase(index);
