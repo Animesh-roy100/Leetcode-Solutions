@@ -1,30 +1,27 @@
 class FoodRatings {
 public:
-    unordered_map<string, int> foodRating; // {food -> rating}
+    unordered_map<string, pair<int, string>> foodDetails; // {food -> {rating, cuisine}}
     unordered_map<string, set<pair<int, string>>> cuisineRating; // {cuisine -> [{rating, food}]}
-    unordered_map<string, string> foodCuisine; // {food -> cuisine}
 
     FoodRatings(vector<string>& foods, vector<string>& cuisines, vector<int>& ratings) {
         int n=foods.size();
         for(int i=0; i<n; i++) {
-            foodRating[foods[i]] = ratings[i];
-            foodCuisine[foods[i]] = cuisines[i];
+            foodDetails[foods[i]] = {ratings[i], cuisines[i]};
             cuisineRating[cuisines[i]].insert({-ratings[i], foods[i]});
         }
     }
     
     void changeRating(string food, int newRating) {
-        int oldRating = foodRating[food];
-        string cuisine = foodCuisine[food];
+        int oldRating = foodDetails[food].first;
+        string cuisine = foodDetails[food].second;
 
         cuisineRating[cuisine].erase({-oldRating, food});
         cuisineRating[cuisine].insert({-newRating, food});
 
-        foodRating[food] = newRating;
+        foodDetails[food] = {newRating, cuisine};
     }
     
     string highestRated(string cuisine) {
-        // cuisine -> (rating, name)
         return (*cuisineRating[cuisine].begin()).second;
     }
 };
