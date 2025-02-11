@@ -3,19 +3,19 @@ public:
     stack<string> backURLs, forwardURLs;
     BrowserHistory(string homepage) {
         backURLs.push(homepage);
+        forwardURLs = stack<string>();
     }
     
     void visit(string url) {
         backURLs.push(url);
-        while(!forwardURLs.empty()) {
-            forwardURLs.pop();
-        }
+        forwardURLs = stack<string>();
+        // while(!forwardURLs.empty()) {
+        //     forwardURLs.pop();
+        // }
     }
     
     string back(int steps) {
-        int backSize = backURLs.size();
-
-        while(backSize-- > 1 and steps-- > 0) {
+        while(backURLs.size() > 1 and steps-- > 0) {
             string url = backURLs.top();
             backURLs.pop();
             forwardURLs.push(url);
