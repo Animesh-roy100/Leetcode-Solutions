@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
 | [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
+| [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1127-last-stone-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
+| [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [3430-count-days-without-meetings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3430-count-days-without-meetings) |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Monotonic Stack
@@ -243,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0793-swap-adjacent-in-lr-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0793-swap-adjacent-in-lr-string) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
+| [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
 ## Union Find
 |  |
 | ------- |
