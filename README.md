@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1619-path-crossing](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1619-path-crossing) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3447-clear-digits) |
 ## Stack
 |  |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0394-decode-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3447-clear-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3447-clear-digits) |
 ## Recursion
 |  |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3447-clear-digits) |
 ## Binary Search
