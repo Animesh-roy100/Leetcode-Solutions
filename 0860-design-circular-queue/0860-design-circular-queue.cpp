@@ -1,47 +1,51 @@
 class MyCircularQueue {
 public:
-    vector<int> deq;
+    vector<int> queue;
     int qSize;
-    int index;
-    int size;
+    int k;
+    int pointer;
 
-    MyCircularQueue(int k) {
-        size = k;
-        deq.resize(k, -1);
-        index = 0;
+    MyCircularQueue(int _k) {
+        queue.resize(_k, -1);
         qSize=0;
+        k=_k;
+        pointer=0;
     }
     
     bool enQueue(int value) {
         if(isFull()) return false;
-        deq[(index + qSize) % size] = value;
+
+        queue[(pointer + qSize) % k] = value;
         qSize++;
+
         return true;
     }
     
     bool deQueue() {
         if(isEmpty()) return false;
-        index = (index + 1) % size;
+
+        pointer = (pointer + 1) % k;
         qSize--;
+
         return true;
     }
     
     int Front() {
         if(isEmpty()) return -1;
-        return deq[index];
+        return queue[pointer];
     }
     
     int Rear() {
         if(isEmpty()) return -1;
-        return deq[(index + qSize - 1) % size];
+        return queue[(qSize + pointer - 1) % k];
     }
     
     bool isEmpty() {
-        return !qSize;
+        return qSize == 0;
     }
     
     bool isFull() {
-        return qSize == size;
+        return qSize == k;
     }
 };
 
