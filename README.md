@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
 | [0793-swap-adjacent-in-lr-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0793-swap-adjacent-in-lr-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1619-path-crossing](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1619-path-crossing) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1130-last-stone-weight-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
+| [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
+| [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [3430-count-days-without-meetings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3430-count-days-without-meetings) |
@@ -310,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 ## Prefix Sum
 |  |
@@ -320,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1127-last-stone-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1127-last-stone-weight) |
+| [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1955-seat-reservation-manager](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1955-seat-reservation-manager) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -352,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0648-replace-words](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Topological Sort
 |  |
