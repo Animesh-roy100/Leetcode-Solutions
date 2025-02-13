@@ -1,0 +1,70 @@
+class TrieNode {
+public:
+    bool isCompleted;
+    TrieNode* children[26];
+
+    TrieNode() {
+        isCompleted = false;
+        memset(children, 0, sizeof(children));
+    }
+};
+
+class Trie {
+public:
+    TrieNode* root;
+    Trie() { root = new TrieNode(); }
+
+    void insert(string word) {
+        TrieNode *temp = root;
+        for(char c: word) {
+            int idx = c-'a';
+            if(temp->children[idx] == nullptr) temp->children[idx] = new TrieNode();
+            temp = temp->children[idx];
+        }
+        temp->isCompleted = true;
+    }
+
+
+};
+
+class Solution {
+private:
+    vector<pair<int, int>> dir{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+
+    void dfs(int i, int j, vector<vector<char>> &board, TrieNode* node, string word, unordered_set<string> &wordSet) {
+        if(i<0 or i>=board.size() or j<0 or j>=board[0].size() or board[i][j] == '#' or node->children[board[i][j]-'a'] == nullptr) return;
+
+        char temp = board[i][j];
+        word += temp;
+        node = node->children[temp-'a'];
+
+        if(node->isCompleted) {
+            node->isCompleted = false;
+            wordSet.insert(word);
+        }
+
+        board[i][j] = '#';
+
+        for(auto &it: dir) dfs(i+it.first, j+it.second, board, node, word, wordSet);
+
+        board[i][j] = temp;
+    }
+public:
+    vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
+        Trie t;
+        for(string word: words) t.insert(word);
+
+        int m=board.size(), n=board[0].size();
+        unordered_set<string> wordSet;
+
+        for(int i=0; i<m; i++) {
+            for(int j=0; j<n; j++) {
+                dfs(i, j, board, t.root, "", wordSet);
+            }
+        }
+
+        vector<string> ans(wordSet.begin(), wordSet.end());
+
+        return ans;
+    }
+};
