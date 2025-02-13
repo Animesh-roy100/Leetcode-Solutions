@@ -31,7 +31,7 @@ class Solution {
 private:
     vector<pair<int, int>> dir{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
 
-    void dfs(int i, int j, vector<vector<char>> &board, TrieNode* node, string &word, unordered_set<string> &wordSet) {
+    void dfs(int i, int j, vector<vector<char>> &board, TrieNode* node, string &word, vector<string> &res) {
         if(i<0 or i>=board.size() or j<0 or j>=board[0].size() or board[i][j] == '#' or node->children[board[i][j]-'a'] == nullptr) return;
 
         char temp = board[i][j];
@@ -40,12 +40,12 @@ private:
 
         if(node->isCompleted) {
             node->isCompleted = false;
-            wordSet.insert(word);
+            res.push_back(word);
         }
 
         board[i][j] = '#';
 
-        for(auto &it: dir) dfs(i+it.first, j+it.second, board, node, word, wordSet);
+        for(auto &it: dir) dfs(i+it.first, j+it.second, board, node, word, res);
 
         board[i][j] = temp;
         word.pop_back();
@@ -56,17 +56,15 @@ public:
         for(string word: words) t.insert(word);
 
         int m=board.size(), n=board[0].size();
-        unordered_set<string> wordSet;
+        vector<string> res;
         string word="";
 
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
-                dfs(i, j, board, t.root, word, wordSet);
+                dfs(i, j, board, t.root, word, res);
             }
         }
 
-        vector<string> ans(wordSet.begin(), wordSet.end());
-
-        return ans;
+        return res;
     }
 };
