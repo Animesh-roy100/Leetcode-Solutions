@@ -1,16 +1,12 @@
 class TreeAncestor {
-public:
+private: 
     vector<vector<int>> anc;
+public:
     TreeAncestor(int n, vector<int>& parent) {
-        // log2(1e9) == 30
         anc.resize(n, vector<int> (30, -1));
 
-        // base case
-        for(int i=0; i<n; i++) {
-            anc[i][0] = parent[i];
-        }
+        for(int i=0; i<n; i++) anc[i][0] = parent[i];
 
-        // fill the ancestors
         for(int j=1; j<30; j++) {
             for(int i=0; i<n; i++) {
                 if(anc[i][j-1] != -1) {
@@ -22,9 +18,10 @@ public:
     
     int getKthAncestor(int node, int k) {
         int ans = node;
-        for(int j=0; j<30; j++) {
-            if(k & (1<<j)) {
-                ans = anc[ans][j];
+
+        for(int i=0; i<30; i++) {
+            if(k & (1<<i)) {
+                ans = anc[ans][i];
                 if(ans == -1) return -1;
             }
         }
