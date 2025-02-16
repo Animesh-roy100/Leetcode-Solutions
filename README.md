@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Sorting
 |  |
