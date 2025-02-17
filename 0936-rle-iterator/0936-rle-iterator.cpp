@@ -1,33 +1,29 @@
 class RLEIterator {
 public:
-    queue<pair<int, int>> q; // Queue to store (count, value) pairs
-
+    queue<pair<int, int>> q;
     RLEIterator(vector<int>& encoding) {
-        for (size_t i = 0; i < encoding.size(); i += 2) {
-            int count = encoding[i];
-            int value = encoding[i + 1];
-            if (count > 0) {
-                q.push({count, value});
+        for(int i=0; i<encoding.size(); i+=2) {
+            if(encoding[i] > 0) {
+                q.push({encoding[i], encoding[i+1]});
             }
-        }
+        } 
     }
     
     int next(int n) {
-        while (!q.empty() && n > 0) {
-            auto& front = q.front();
-            int count = front.first;
-            int value = front.second;
+        while(!q.empty() and n>0) {
+            auto &front = q.front();
+            int count = q.front().first;
+            int val = q.front().second;
 
-            if (n <= count) {
-                front.first -= n; // Reduce the count by n
-                return value;    // Return the current value
+            if(n <= count) {
+                front.first -= n;
+                return val;
             } else {
-                n -= count; // Subtract the entire count
-                q.pop();    // Remove the exhausted pair
+                n -= count;
+                q.pop();
             }
         }
-
-        return -1; // If the queue is empty and n > 0, return -1
+        return -1;
     }
 };
 
