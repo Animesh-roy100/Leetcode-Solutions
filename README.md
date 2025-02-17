@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
+| [0936-rle-iterator](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0936-rle-iterator) |
 | [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 | [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -377,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0859-design-circular-deque](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
+| [0936-rle-iterator](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0936-rle-iterator) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
@@ -439,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0936-rle-iterator](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0936-rle-iterator) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1160-letter-tile-possibilities](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
@@ -461,4 +464,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1733-maximum-number-of-visible-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1733-maximum-number-of-visible-points) |
+## Iterator
+|  |
+| ------- |
+| [0936-rle-iterator](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0936-rle-iterator) |
 <!---LeetCode Topics End-->
