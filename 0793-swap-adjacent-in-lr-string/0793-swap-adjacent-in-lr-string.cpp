@@ -16,7 +16,7 @@ public:
             if(start[l] == 'X') l++;
             else if(result[r] == 'X') r++;
             else {
-                if((start[l] == 'L' and l<r) or (start[r] == 'R' and l>r)) return false;
+                if((start[l] == 'L' and l<r) or (start[l] == 'R' and l>r)) return false;
                 else {
                     l++, r++;
                 }
