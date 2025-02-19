@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
+| [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1619-path-crossing](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1619-path-crossing) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
+| [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
