@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0793-swap-adjacent-in-lr-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0793-swap-adjacent-in-lr-string) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
 | [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [1127-last-stone-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1127-last-stone-weight) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -391,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0859-design-circular-deque](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
 | [0936-rle-iterator](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0936-rle-iterator) |
@@ -473,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
 ## Geometry
