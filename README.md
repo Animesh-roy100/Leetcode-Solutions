@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1160-letter-tile-possibilities](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1619-path-crossing](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1619-path-crossing) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
@@ -399,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
 | [0936-rle-iterator](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0936-rle-iterator) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
 | [1955-seat-reservation-manager](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1955-seat-reservation-manager) |
@@ -444,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0930-all-possible-full-binary-trees](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0930-all-possible-full-binary-trees) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 | [3191-maximum-score-after-applying-operations-on-a-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3191-maximum-score-after-applying-operations-on-a-tree) |
@@ -451,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0930-all-possible-full-binary-trees](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0930-all-possible-full-binary-trees) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Memoization
