@@ -11,11 +11,12 @@
  */
 class FindElements {
 private:
-    TreeNode *curr;
+    unordered_set<int> set;
     void decontaminate(TreeNode* root, int num) {
         if(root == nullptr) return;
 
         root->val = num;
+        set.insert(num);
 
         decontaminate(root->left, num * 2 + 1);
         decontaminate(root->right, num * 2 + 2);
@@ -23,26 +24,29 @@ private:
 public:
     FindElements(TreeNode* root) {
         decontaminate(root, 0);
-        curr = root;
+        // curr = root;
     }
     
     bool find(int target) {
-        queue<TreeNode*> q;
-        q.push(curr);
 
-        while(!q.empty()) {
-            TreeNode* node = q.front();
-            q.pop();
+        return set.find(target) != set.end() ? true : false;
 
-            if(node == nullptr) continue;
+        // queue<TreeNode*> q;
+        // q.push(curr);
 
-            if(node->val == target) return true;
+        // while(!q.empty()) {
+        //     TreeNode* node = q.front();
+        //     q.pop();
 
-            q.push(node->left);
-            q.push(node->right);
-        }
+        //     if(node == nullptr) continue;
 
-        return false;
+        //     if(node->val == target) return true;
+
+        //     q.push(node->left);
+        //     q.push(node->right);
+        // }
+
+        // return false;
     }
 };
 
