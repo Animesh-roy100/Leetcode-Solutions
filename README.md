@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0648-replace-words](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
+| [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0833-bus-routes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0833-bus-routes) |
 | [0859-design-circular-deque](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
+| [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [0833-bus-routes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0833-bus-routes) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0419-battleships-in-a-board](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0419-battleships-in-a-board) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
+| [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
@@ -287,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0212-word-search-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0212-word-search-ii) |
 | [0419-battleships-in-a-board](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0419-battleships-in-a-board) |
+| [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
 | [0971-shortest-bridge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0971-shortest-bridge) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -309,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
+| [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -366,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0912-random-pick-with-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
@@ -381,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
+| [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1127-last-stone-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1127-last-stone-weight) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
