@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3447-clear-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3447-clear-digits) |
 ## Stack
 |  |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2479-meeting-rooms-iii) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Topological Sort
 |  |
 | ------- |
@@ -504,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Queue
 |  |
 | ------- |
