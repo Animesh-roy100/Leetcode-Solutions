@@ -12,28 +12,33 @@
 class Solution {
 public:
     TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
-        stack<TreeNode*> nodes;
-        TreeNode* root = new TreeNode(preorder[0]);
-        nodes.push(root);
+        stack<TreeNode*> stk;
+        int preIdx=0, postIdx=0;
 
-        int preIndex = 1, postIndex = 0;
+        TreeNode* root = new TreeNode(preorder[preIdx]);
+        preIdx++;
+        stk.push(root);
 
-        while (!nodes.empty()) {
-            TreeNode* current = nodes.top();
+        while(!stk.empty()) {
+            TreeNode* curr = stk.top();
 
-            if (current->val == postorder[postIndex]) {
-                nodes.pop();
-                postIndex++;
+            if(curr->val == postorder[postIdx]) {
+                stk.pop();
+                postIdx++;
             } else {
-                TreeNode* newNode = new TreeNode(preorder[preIndex++]);
-                if (!current->left) {
-                    current->left = newNode;
+                TreeNode *newNode = new TreeNode(preorder[preIdx]);
+                preIdx++;
+
+                if(curr->left == nullptr) {
+                    curr->left = newNode;
                 } else {
-                    current->right = newNode;
+                    curr->right = newNode;
                 }
-                nodes.push(newNode);
+
+                stk.push(newNode);
             }
         }
+
         return root;
     }
 };
