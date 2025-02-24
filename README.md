@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0212-word-search-ii) |
 | [0260-single-number-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0260-single-number-iii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
 | [0072-edit-distance](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0072-edit-distance) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0338-counting-bits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0338-counting-bits) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0126-word-ladder-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
@@ -278,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0419-battleships-in-a-board](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0419-battleships-in-a-board) |
@@ -302,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0212-word-search-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0419-battleships-in-a-board](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0419-battleships-in-a-board) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
@@ -338,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
@@ -454,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0820-find-eventual-safe-states](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 ## Eulerian Circuit
@@ -498,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0930-all-possible-full-binary-trees](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0930-all-possible-full-binary-trees) |
 ## Counting
 |  |
