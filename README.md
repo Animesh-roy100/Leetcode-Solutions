@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0212-word-search-ii) |
+| [0221-maximal-square](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0221-maximal-square) |
 | [0260-single-number-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0260-single-number-iii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
 | [0072-edit-distance](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0072-edit-distance) |
+| [0221-maximal-square](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0338-counting-bits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0338-counting-bits) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0212-word-search-ii) |
+| [0221-maximal-square](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0419-battleships-in-a-board](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0419-battleships-in-a-board) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
