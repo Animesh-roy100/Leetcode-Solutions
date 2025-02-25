@@ -1,5 +1,5 @@
 class RandomizedSet {
-unordered_set<int> set;
+unordered_map<int, int> m; // val->index
 vector<int> v;
 public:
     RandomizedSet() {
@@ -7,25 +7,26 @@ public:
     }
     
     bool insert(int val) {
-        if(set.find(val) != set.end()) return false;
-        set.insert(val);
+        if(m.find(val) != m.end()) return false;
+
         v.push_back(val);
+        m[val] = v.size()-1;
+        
         return true;
     }
     
     bool remove(int val) {
-        if(set.find(val) == set.end()) return false;
+        if(m.find(val) == m.end()) return false;
 
-        set.erase(val);
+        int idx = m[val];
+        int lastIdx = v.size()-1;
 
-        int n=v.size();
-        for(int i=0; i<n; i++) {
-            if(v[i] == val) {
-                swap(v[i], v[n-1]);
-                v.pop_back();
-                break;
-            }
-        }
+        swap(v[idx], v[lastIdx]);
+
+        m[v[idx]] = idx;
+        
+        v.pop_back();
+        m.erase(val);
 
         return true;
     }
