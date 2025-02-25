@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0221-maximal-square) |
 | [0260-single-number-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0260-single-number-iii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0384-shuffle-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0384-shuffle-an-array) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
+| [0384-shuffle-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0384-shuffle-an-array) |
 | [0912-random-pick-with-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1733-maximum-number-of-visible-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1733-maximum-number-of-visible-points) |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0382-linked-list-random-node) |
+| [0384-shuffle-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0384-shuffle-an-array) |
 | [0912-random-pick-with-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 ## Hash Table
 |  |
@@ -437,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
+| [0384-shuffle-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0384-shuffle-an-array) |
 | [0859-design-circular-deque](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
 | [0936-rle-iterator](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0936-rle-iterator) |
