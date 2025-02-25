@@ -9,10 +9,8 @@ public:
 
             if(curr[1] < newInterval[0]) {
                 if(ans.empty() or ans.back()[1] < curr[0]) {
-                    cout<<"Hi"<<endl;
                     ans.push_back(curr);
                 } else {
-                    cout<<"Hii"<<endl;
                     ans.back()[1] = max(ans.back()[1], curr[1]);
                 }
             } else if(curr[0] > newInterval[1]) {
