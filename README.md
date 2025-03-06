@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2107-find-unique-binary-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3191-maximum-score-after-applying-operations-on-a-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3191-maximum-score-after-applying-operations-on-a-tree) |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Two Pointers
 |  |
