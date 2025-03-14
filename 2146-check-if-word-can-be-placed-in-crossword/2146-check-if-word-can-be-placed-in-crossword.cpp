@@ -26,11 +26,13 @@ public:
             for(int j=0; j<n; j++) {
                 if(board[i][j] == '#') count=0;
                 string s="";
-                while(j<n and board[i][j] != '#') {
-                    s+=board[i][j];
-                    j++;
+                int k=j;
+                while(k<n and board[i][k] != '#') {
+                    s+=board[i][k];
+                    k++;
                 }
                 if(checkCanPlaced(s, word)) return true;
+                j=k;
             }
         }
 
@@ -39,11 +41,13 @@ public:
             for(int j=0; j<m; j++) {
                 if(board[j][i] == '#') count=0;
                 string s="";
-                while(j<m and board[j][i] != '#') {
-                    s+=board[j][i];
-                    j++;
+                int k=j;
+                while(k<m and board[k][i] != '#') {
+                    s+=board[k][i];
+                    k++;
                 }
                 if(checkCanPlaced(s, word)) return true;
+                j=k;
             }
         }
 
