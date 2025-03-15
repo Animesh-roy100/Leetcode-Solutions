@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1251-longest-chunked-palindrome-decomposition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1251-longest-chunked-palindrome-decomposition) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1619-path-crossing](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1619-path-crossing) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1619-path-crossing](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1619-path-crossing) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1733-maximum-number-of-visible-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1733-maximum-number-of-visible-points) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Depth-First Search
