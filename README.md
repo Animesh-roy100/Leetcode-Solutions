@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2665-minimum-time-to-repair-cars](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
+| [2665-minimum-time-to-repair-cars](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
 ## Prefix Sum
 |  |
 | ------- |
