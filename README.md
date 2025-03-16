@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1127-last-stone-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1130-last-stone-weight-ii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
@@ -442,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0912-random-pick-with-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
