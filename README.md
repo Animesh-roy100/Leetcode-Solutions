@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2478-longest-nice-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2479-meeting-rooms-iii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1733-maximum-number-of-visible-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1733-maximum-number-of-visible-points) |
+| [2478-longest-nice-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2478-longest-nice-subarray) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Depth-First Search
@@ -418,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [2478-longest-nice-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2478-longest-nice-subarray) |
 ## Enumeration
 |  |
 | ------- |
