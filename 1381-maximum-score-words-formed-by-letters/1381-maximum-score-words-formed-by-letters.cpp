@@ -35,7 +35,33 @@ public:
         unordered_map<char, int> letterCount;
         for(auto &c: letters) letterCount[c]++;
 
-        backtrack(0, words, letterCount, score, 0);
+        // backtrack(0, words, letterCount, score, 0);
+
+        // using bitmasking. (iterate through all the possibilities)
+        int n=words.size();
+        for(int mask=0; mask < (1<<n); mask++) {
+            unordered_map<char, int> currCount = letterCount;
+            int currScore=0;
+            bool isValid=true;
+
+            for(int i=0; i<n; i++) {
+                if(mask & (1<<i)) { // ith word is selected
+                    for(auto &c: words[i]) {
+                        if(currCount[c] == 0) {
+                            isValid=false;
+                            break;
+                        }
+                        currCount[c]--;
+                        currScore += score[c-'a'];
+                    }
+                    if(!isValid) break;
+                }
+            }
+
+            if(isValid) {
+                maxScore = max(maxScore, currScore);
+            }
+        }
 
         return maxScore;
     }
