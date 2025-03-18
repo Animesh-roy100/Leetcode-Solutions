@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1251-longest-chunked-palindrome-decomposition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1251-longest-chunked-palindrome-decomposition) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1364-tuple-with-same-product) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1251-longest-chunked-palindrome-decomposition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1251-longest-chunked-palindrome-decomposition) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -176,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1160-letter-tile-possibilities) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -418,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0338-counting-bits) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2478-longest-nice-subarray](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2478-longest-nice-subarray) |
@@ -533,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bitmask
 |  |
 | ------- |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
 ## Minimum Spanning Tree
 |  |
