@@ -26,7 +26,19 @@ public:
             right.push(c);
         }
 
-        return getLastChars();
+        string lastChars="";
+        int len=0;
+        while(len < 10 and !left.empty()) {
+            lastChars += left.top();
+            left.pop();
+            len++;
+        }
+
+        reverse(lastChars.begin(), lastChars.end());
+        for(char c : lastChars) left.push(c);
+
+        cout<<"cursorLeft: "<<lastChars<<endl;
+        return lastChars;
     }
     
     string cursorRight(int k) {
@@ -36,26 +48,17 @@ public:
             left.push(c);
         }
 
-        return getLastChars();
-    }
-
-    string getLastChars() {
-        stack<char> temp;
-        string lastChars;
+        string lastChars="";
         int len=0;
-
-        while(len<10 and !left.empty()) {
-            temp.push(left.top());
+        while(len < 10 and !left.empty()) {
+            lastChars += left.top();
             left.pop();
             len++;
         }
 
-        while(!temp.empty()) {
-            lastChars.push_back(temp.top());
-            left.push(temp.top());
-            temp.pop();
-        }
-
+        reverse(lastChars.begin(), lastChars.end());
+        for(char c : lastChars) left.push(c);
+        cout<<"cursorRight: "<<lastChars<<endl;
         return lastChars;
     }
 };
