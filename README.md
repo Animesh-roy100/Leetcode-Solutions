@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
+| [2389-design-a-text-editor](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2389-design-a-text-editor) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3447-clear-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3447-clear-digits) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2389-design-a-text-editor](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2389-design-a-text-editor) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3447-clear-digits) |
 ## Recursion
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0859-design-circular-deque) |
 | [0860-design-circular-queue](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0860-design-circular-queue) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
+| [2389-design-a-text-editor](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2389-design-a-text-editor) |
 ## Reservoir Sampling
 |  |
 | ------- |
@@ -450,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2389-design-a-text-editor](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2389-design-a-text-editor) |
 | [2479-meeting-rooms-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2479-meeting-rooms-iii) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -515,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
 | [1955-seat-reservation-manager](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1955-seat-reservation-manager) |
+| [2389-design-a-text-editor](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2389-design-a-text-editor) |
 | [2429-design-a-food-rating-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2434-design-a-number-container-system) |
 ## Trie
@@ -601,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
+| [2389-design-a-text-editor](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2389-design-a-text-editor) |
 ## Data Stream
 |  |
 | ------- |
