@@ -1,22 +1,22 @@
 class Solution {
 public:
-    int solve(int i, vector<int> &nums, int sum, vector<vector<int>> &dp) {
-        if(sum==0) return true;
-        if(i==0) return false;
-        if(dp[i][sum] != -1) return dp[i][sum];
-        if(nums[i-1] <= sum) {
-            return dp[i][sum] = solve(i-1, nums, sum-nums[i-1], dp) || solve(i-1, nums, sum, dp);
+    bool solve(int i, int target, vector<int> &nums, vector<vector<int>> &dp) {
+        if(target==0) return true;
+        if(i==0 or target<0) return false;
+        if(dp[i][target] != -1) return dp[i][target];
+        if(nums[i-1] <= target) {
+            return dp[i][target] = solve(i-1, target-nums[i-1], nums, dp) || solve(i-1, target, nums, dp);
         } else {
-            return dp[i][sum] = solve(i-1, nums, sum, dp);
+            return dp[i][target] = solve(i-1, target, nums, dp);
         }
     }
-    
+
     bool canPartition(vector<int>& nums) {
-        int n=nums.size();
-        int sum=0;
+        int sum=0, n=nums.size();
         for(int num: nums) sum+=num;
-        if(sum%2 == 1) return false;
-        vector<vector<int>> dp(n+1, vector<int> (sum/2 + 1, -1));
-        return solve(n, nums, sum/2, dp);
+        if(sum%2!=0) return false; 
+        int target = sum/2;
+        vector<vector<int>> dp(n+1, vector<int> (target+1, -1));
+        return solve(n, target, nums, dp);
     }
 };
