@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
+| [1656-count-good-triplets](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1656-count-good-triplets) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1710-find-servers-that-handled-most-number-of-requests](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1710-find-servers-that-handled-most-number-of-requests) |
@@ -453,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
+| [1656-count-good-triplets](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1656-count-good-triplets) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 ## Number Theory
 |  |
