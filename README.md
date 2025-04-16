@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2107-find-unique-binary-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3191-maximum-score-after-applying-operations-on-a-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3191-maximum-score-after-applying-operations-on-a-tree) |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1733-maximum-number-of-visible-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1733-maximum-number-of-visible-points) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2479-meeting-rooms-iii) |
@@ -300,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2023-design-movie-rental-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2023-design-movie-rental-system) |
 | [2107-find-unique-binary-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2429-design-a-food-rating-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2434-design-a-number-container-system) |
@@ -487,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
 ## Prefix Sum
