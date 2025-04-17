@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
+| [0685-redundant-connection-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0685-redundant-connection-ii) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
@@ -369,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0419-battleships-in-a-board](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0419-battleships-in-a-board) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
+| [0685-redundant-connection-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0685-redundant-connection-ii) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
+| [0685-redundant-connection-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0685-redundant-connection-ii) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
@@ -442,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0332-reconstruct-itinerary](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
+| [0685-redundant-connection-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0685-redundant-connection-ii) |
 | [0801-is-graph-bipartite](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0820-find-eventual-safe-states) |
 | [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
