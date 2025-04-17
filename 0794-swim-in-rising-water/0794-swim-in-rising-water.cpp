@@ -1,20 +1,21 @@
 class Solution {
 public:
-    typedef pair<int, pair<int, int>> piii;  // {time, {i, j}} 
+    typedef pair<int, pair<int, int>> piii;
     int swimInWater(vector<vector<int>>& grid) {
         int n=grid.size();
+        vector<pair<int, int>> dir{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         priority_queue<piii, vector<piii>, greater<piii>> pq;
         pq.push({grid[0][0], {0, 0}});
-        vector<vector<bool>> vis(n, vector<bool> (n, false));
-        vis[0][0] = true;
-        vector<pair<int, int>> dir{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+
+        vector<vector<int>> vis(n, vector<int> (n, false));
+        vis[0][0] = false;
 
         while(!pq.empty()) {
             int time = pq.top().first;
             int x = pq.top().second.first;
             int y = pq.top().second.second;
             pq.pop();
-            
+
             if(x == n-1 and y == n-1) return time;
 
             for(auto &it: dir) {
