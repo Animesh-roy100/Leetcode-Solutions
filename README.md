@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
+| [0630-course-schedule-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0630-course-schedule-iii) |
 | [0648-replace-words](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
+| [0630-course-schedule-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0630-course-schedule-iii) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0917-boats-to-save-people](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
+| [0630-course-schedule-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0630-course-schedule-iii) |
 | [0678-valid-parenthesis-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0917-boats-to-save-people](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0985-bag-of-tokens) |
@@ -540,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [0630-course-schedule-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0630-course-schedule-iii) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1127-last-stone-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1127-last-stone-weight) |
 | [1397-search-suggestions-system](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1397-search-suggestions-system) |
