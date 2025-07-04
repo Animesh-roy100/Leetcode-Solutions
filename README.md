@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1471-maximum-students-taking-exam](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1471-maximum-students-taking-exam) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1761-count-sorted-vowel-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1761-count-sorted-vowel-strings) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-random-pick-with-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1733-maximum-number-of-visible-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1733-maximum-number-of-visible-points) |
+| [1761-count-sorted-vowel-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1761-count-sorted-vowel-strings) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Linked List
 |  |
@@ -705,4 +707,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Combinatorics
+|  |
+| ------- |
+| [1761-count-sorted-vowel-strings](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1761-count-sorted-vowel-strings) |
 <!---LeetCode Topics End-->
