@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0137-single-number-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0200-number-of-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0221-maximal-square) |
@@ -348,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0126-word-ladder-ii) |
 | [0130-surrounded-regions](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0332-reconstruct-itinerary) |
@@ -416,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -449,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0684-redundant-connection) |
 | [0685-redundant-connection-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0685-redundant-connection-ii) |
