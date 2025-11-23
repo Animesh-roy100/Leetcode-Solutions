@@ -1,29 +1,50 @@
 class Solution {
-public:
-    void dfs(int node, vector<vector<int>>& isConnected, vector<bool> &vis) {
-        int n=isConnected.size();
-        
-        vis[node] = true;
-        
-        for(int i=0; i<n; i++) {
-            if(isConnected[node][i]==1 and !vis[i]) {
-                dfs(i, isConnected, vis);
+private:
+    vector<int> parent, rank;
+
+    int findParent(int node) {
+        if(parent[node] == node) return node;
+        return parent[node] = findParent(parent[node]);
+    }
+
+    void unionByRank(int u, int v) {
+        int pu = findParent(u);
+        int pv = findParent(v);
+
+        if(pu != pv) {
+            if(rank[pu] > rank[pv]) {
+                parent[pv] = pu;
+            } else if (rank[pu] < rank[pv]) {
+                parent[pu] = pv;
+            } else {
+                parent[pv] = pu;
+                rank[pu]++;
             }
         }
     }
-    
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int n=isConnected.size();
-        
-        vector<bool> vis(n, false);
-        
-        int ans=0;
-        for(int i=0; i<n; i++) {
-            if(!vis[i]) {
-                ans++;
-                dfs(i, isConnected, vis);
+
+public:
+    int findCircleNum(vector<vector<int>>& isConn) {
+        int n=isConn.size();
+        parent.resize(n);
+        rank.resize(n, 0);
+        for(int i=0; i<n; i++) parent[i] = i;
+
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++) {
+                if(isConn[i][j] == 1) {
+                    unionByRank(i, j);
+                }
             }
         }
-        return ans;
+
+        int count=0;
+        for(int i=0; i<n; i++) {
+            if(findParent(i) == i) {
+                count++;
+            }
+        }
+
+        return count;
     }
 };
