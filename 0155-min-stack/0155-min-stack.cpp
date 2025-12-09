@@ -30,7 +30,9 @@ public:
     }
     
     void pop() {
+        Node* temp = topNode;
         topNode = topNode->next;
+        delete temp;
     }
     
     int top() {
