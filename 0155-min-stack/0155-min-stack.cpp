@@ -1,31 +1,44 @@
 class MinStack {
+struct Node {
+    int val;
+    int minimum;
+    Node* next;
+
+    // contructor
+    Node(int v) {
+        val = v;
+        minimum = v;
+        next = nullptr;
+    }
+};
+
+private:
+Node *topNode; // top element of stack
+
 public:
-    stack<int> stk;
-    stack<int> mini;
     MinStack() {
-        
+        topNode = nullptr;
     }
     
     void push(int val) {
-        stk.push(val);
-        if(mini.empty() or mini.top()>=val) {
-            mini.push(val);
+        Node* newNode = new Node(val);
+        newNode->next = topNode; // add the linked list before the newnode 
+        if(topNode != nullptr) {
+            newNode->minimum = min(newNode->val, topNode->minimum); // check and store the minimum element
         }
+        topNode = newNode; // make the newNode top
     }
     
     void pop() {
-        if(stk.top() == mini.top()) {
-            mini.pop();
-        }
-        stk.pop();
+        topNode = topNode->next;
     }
     
     int top() {
-        return stk.top();
+        return topNode->val;
     }
     
     int getMin() {
-        return mini.top();
+        return topNode->minimum;
     }
 };
 
