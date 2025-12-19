@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [0552-student-attendance-record-ii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0552-student-attendance-record-ii) |
+| [0576-out-of-boundary-paths](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0576-out-of-boundary-paths) |
 | [0678-valid-parenthesis-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0688-knight-probability-in-chessboard](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0688-knight-probability-in-chessboard) |
 | [0806-domino-and-tromino-tiling](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0806-domino-and-tromino-tiling) |
