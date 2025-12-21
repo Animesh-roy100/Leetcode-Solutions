@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2107-find-unique-binary-string) |
 | [2118-maximum-earnings-from-taxi](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
+| [2304-minimum-path-cost-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2304-minimum-path-cost-in-a-grid) |
 | [2334-number-of-flowers-in-full-bloom](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2334-number-of-flowers-in-full-bloom) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2118-maximum-earnings-from-taxi](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2118-maximum-earnings-from-taxi) |
+| [2304-minimum-path-cost-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2304-minimum-path-cost-in-a-grid) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3191-maximum-score-after-applying-operations-on-a-tree](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/3191-maximum-score-after-applying-operations-on-a-tree) |
@@ -449,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2146-check-if-word-can-be-placed-in-crossword](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
+| [2304-minimum-path-cost-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2304-minimum-path-cost-in-a-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Two Pointers
 |  |
