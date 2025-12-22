@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1582-design-browser-history](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1582-design-browser-history) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1656-count-good-triplets](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1656-count-good-triplets) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
@@ -486,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0922-possible-bipartition](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0922-possible-bipartition) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2035-count-sub-islands](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2035-count-sub-islands) |
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1436-get-watched-videos-by-your-friends](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1912-number-of-restricted-paths-from-first-to-last-node](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1912-number-of-restricted-paths-from-first-to-last-node) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -667,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimum Spanning Tree
 |  |
 | ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Tree
 |  |
