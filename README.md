@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0494-target-sum) |
+| [0498-diagonal-traverse](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0630-course-schedule-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0630-course-schedule-iii) |
 | [0648-replace-words](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
@@ -439,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0419-battleships-in-a-board](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0419-battleships-in-a-board) |
+| [0498-diagonal-traverse](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0854-making-a-large-island) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0861-flipping-an-image](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0861-flipping-an-image) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2389-design-a-text-editor](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/2389-design-a-text-editor) |
