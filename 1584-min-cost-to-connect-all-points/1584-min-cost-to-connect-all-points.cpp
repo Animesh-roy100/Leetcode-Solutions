@@ -4,26 +4,26 @@ public:
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n=points.size();
         priority_queue<pii, vector<pii>, greater<pii>> pq;
-        vector<bool> vis(n, false);
+        pq.push({0, 0}); // {dist, idx}
 
-        pq.push({0, 0});
-
-        int minDist=0;
+        vector<bool> visited(n, false);
+        int minCost=0;
 
         while(!pq.empty()) {
             int dist = pq.top().first;
             int idx = pq.top().second;
             pq.pop();
 
-            if(vis[idx]) continue;
-            vis[idx] = true;
-            minDist += dist;
+            if(visited[idx]) continue;
+            visited[idx] = true;
+
+            minCost += dist;
 
             int x1 = points[idx][0];
             int y1 = points[idx][1];
 
             for(int i=0; i<n; i++) {
-                if(!vis[i]) {
+                if(!visited[i]) {
                     int x2 = points[i][0];
                     int y2 = points[i][1];
 
@@ -34,6 +34,6 @@ public:
             }
         }
 
-        return minDist;
+        return minCost;
     }
 };
