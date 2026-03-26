@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0630-course-schedule-iii) |
 | [0648-replace-words](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0648-replace-words) |
 | [0721-accounts-merge](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0721-accounts-merge) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0753-open-the-lock](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0753-open-the-lock) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0833-bus-routes](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0833-bus-routes) |
@@ -567,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0794-swim-in-rising-water](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/Animesh-roy100/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
